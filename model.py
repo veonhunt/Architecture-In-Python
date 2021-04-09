@@ -68,5 +68,6 @@ def allocate(line: OrderLine, batches: List[Batch]) -> str:
     except StopIteration:
         raise OutOfStock(f"Out of stock for sku {line.sku}")
 
+
 class OutOfStock(Exception):
     pass

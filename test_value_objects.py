@@ -50,9 +50,9 @@ def multiplying_two_money_values_is_an_error():
 
 
 class Person:
-
     def __init__(self, name: Name):
         self.name = name
+
 
 def test_barry_is_harry():
     harry = Person(Name("Harry", "Percival"))
